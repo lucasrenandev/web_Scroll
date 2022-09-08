@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #f5f5f5;
+}
+
+section {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+section main {
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 60px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+section main .text {
+    text-align: center;
+    margin: 0 0 30px 0;
+}
+
+section main .text h1 {
+    font-size: 2.2em;
+    font-weight: 700;
+    color: #4A154B;
+    padding: 0 0 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+section main .paragraph {
+    margin: 30px 0;
+}
+
+section main .paragraph p {
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 25px;
+    color: #000;
+}
+
+section footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background-color: #fff;
+    border-top: 1px solid #ccc;
+}
+
+section footer span {
+    color: #4A154B;
+    font-size: 1.1em;
+    font-weight: 400;
+}
+
+section .button {
+    position: fixed;
+    bottom: 70px;
+    right: 25px;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    background-color: #4a154b4d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+section .button i {
+    font-size: 1.9em;
+    font-weight: 700;
+}
