@@ -1,2 +1,2 @@
 # web_Scroll
-Scroll suave e botão de rolar para o topo
+Botão de rolar para o topo com scroll suave
